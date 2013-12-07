@@ -2,3 +2,6 @@ LANGUAGES += pkgconfig
 
 LIBRARIES += pkgconfig/gl.pc
 SOURCES   += gl.pc
+
+LIBRARIES += pkgconfig/glu.pc
+SOURCES   += glu.pc
