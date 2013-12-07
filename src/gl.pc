@@ -1,0 +1,11 @@
+prefix=@@pconfigure_prefix@@
+exec_prefix=@@pconfigure_prefix@@
+libdir=${prefix}/@@pconfigure_libdir@@
+includedir=${prefix}/@@pconfigure_hdrdir@@
+
+Name: gl
+Description: OpenGL
+Version: 2.0
+Libs: -framework OpenGL -framework GLUT -framework Carbon
+Cflags: 
+URL: https://github.com/palmer-dabbelt/fakegl

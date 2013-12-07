@@ -1,0 +1,4 @@
+LANGUAGES += pkgconfig
+
+LIBRARIES += pkgconfig/gl.pc
+SOURCES   += gl.pc
